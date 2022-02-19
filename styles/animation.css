@@ -103,7 +103,7 @@
     }
 }
 
-/* Charlotte's animations: */
+/* --- Charlotte's animations: --- */
 .revealbox{
     position: relative;
     transform: translateY(150px);
@@ -113,6 +113,21 @@
 .reveal.active{ /* might change opacity */
     transform: translateY(0);
     opacity: 1;
+}
+/* Square animation: */
+@media (prefers-reduced-motion: no-preference) {
+    .square {
+        animation-name: wipe-enter;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+}
+
+.squarebox {
+    width: 600px;
+    height: 300px;
+    background: orange;
+// etc...
 }
 
 
