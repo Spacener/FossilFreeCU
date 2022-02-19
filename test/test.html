@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Fossil Free CU</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="test.css" rel="stylesheet">
+
+
+</head>
+
+<body class="fullpage" onload="typeWriter()">
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light myNav">
+
+    <form class="ml-auto">
+        <button class="btn" type="submit">About</button>
+    </form>
+
+</nav>
+
+<!-- Animation Script -->
+
+<!-- Heading -->
+<div class="container-fluid" >
+
+    <div class="midBox fade-in" style="padding: 5%;">
+        <h1 id="intro"></h1>
+    </div>
+
+    <div id="arrow" style="align-items: center; display:flex; justify-content: center; visibility: hidden;" class="fade-in2">
+        <img class="arr" src="../Resources/line.png">
+    </div>
+
+</div>
+
+<!-- Chart -->
+
+<div style="padding:10%;" id="chartholder">
+    <div class="container" id="chart" style="visibility:hidden;">
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Scripts and Whatever -->
+
+<!-- chart script -->
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-cartesian.min.js"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<!-- custom script -->
+<script src="../Script/home.js"></script>
+<script src="../Script/chart.js"></script>
+
+<!-- font and bootstrap -->
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>

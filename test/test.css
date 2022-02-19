@@ -103,18 +103,36 @@
     }
 }
 
-/* Charlotte's animations: */
-.revealbox{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-}
-.reveal.active{ /* might change opacity */
-    transform: translateY(0);
-    opacity: 1;
+/* Font */
+.fullpage{
+    font-family: 'Work Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+}
+
+/* Custom Navbar */
+.myNav{
+
+    background-color:rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(158, 158, 158, 0.452);
+
+}
+
+.navElements{
+    float: right;
+}
+
+.midBox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.arr{
+    width: 5%;
+}
 
 /* -------------- Circle Chart Animation -----------------*/
 

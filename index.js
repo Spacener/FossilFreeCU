@@ -9,7 +9,7 @@ app.use(express.static(__dirname));
 app.set('view engine', 'ejs');
 
 app.get('/', function(req,res) {
-    res.render(__dirname + '/home.ejs');
+    res.render(__dirname + '/views/home.ejs');
 })
 
 app.get('/about', function(req,res) {
