@@ -116,7 +116,7 @@
 }
 /* Square animation: */
 @media (prefers-reduced-motion: no-preference) {
-    .square {
+    .square-animation {
         animation-name: wipe-enter;
         animation-duration: 1s;
         animation-iteration-count: infinite;
@@ -127,7 +127,15 @@
     width: 600px;
     height: 300px;
     background: orange;
-// etc...
+}
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
 }
 
 

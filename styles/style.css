@@ -198,6 +198,19 @@ input {
     border: 2px solid black;
     border-radius: 25px;
 }
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    background: #A9A9A9; /* Dark gray */
+    margin-bottom: 2rem;
+}
+/* Charlotte other stuff: */
+.btn {
+    display: inline-block;
+    background: 
+}
+
 .home-button {
     text-decoration: underline;
 }
