@@ -17,7 +17,7 @@ app.get('/about', function(req,res) {
 })
 
 app.get('/resources', function(req,res) {
-    res.render(__dirname + '/resources.ejs');
+    res.render(__dirname + 'views/resources.ejs');
 })
 
 app.get('/app', function(req,res) {

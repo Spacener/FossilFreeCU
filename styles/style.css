@@ -24,6 +24,10 @@ body {
 p {
     font-size: 1.5vw;
 }
+#scroll1{
+    background-color: black;
+    padding-top: 2vw;
+}
 .title {
     font-family: "Verdana", Helvetica, sans-serif;;
     font-weight: bold;
@@ -34,7 +38,7 @@ p {
     word-spacing: 0.2vw;
     letter-spacing: 5px;
 
-    margin-top: 8vw;
+    margin-top: 4vw;
     margin-left: 10vw;
     padding-left: 4vw;
     padding-top: 1.5vw;
@@ -50,7 +54,7 @@ p {
     float: right;
 
     margin-top: 8vw;
-    margin-right: 20vw;
+    margin-right: 15vw;
     padding-left: 4vw;
     padding-top: 1.5vw;
 
@@ -60,9 +64,9 @@ p {
     height: 20vw;
     width: 40vw;
 
-    border-style: outset;
-    border-bottom: 1vw solid;
-    border-right: 1vw solid;
+    /*border-style: outset;*/
+    /*border-bottom: 1vw solid;*/
+    /*border-right: 1vw solid;*/
     /*border-top: 0.3vw solid;*/
     /*border-left: 0.3vw solid;*/
 }
