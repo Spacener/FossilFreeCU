@@ -6,13 +6,16 @@ grey that matches the logo: 2D2D2D
 black: black
 
 
+
+purple cool: rgba(103, 85, 110, 0.95);
+
 */
 
 
 body {
 
     overflow-x: hidden;
-    font-family: "Verdana", Helvetica, sans-serif;;
+    font-family: 'Cardo', serif;
     font-size: 1vw;
     /*word-spacing: 3px;*/
     word-spacing: 0.1vw;
@@ -27,6 +30,12 @@ body {
     height: 100%;
     /*background-color: #3b3b3b;*/
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
 #body {
     place-items: center;
 }
@@ -73,10 +82,7 @@ p {
     height: 100%;
     width: 100%;
 }
-.title {
-    font-family: "Verdana", Helvetica, sans-serif;;
-    font-weight: bold;
-}
+
 .titleBox1 {
     font-size: 2vw;
     /*word-spacing: 3px;*/
@@ -226,12 +232,11 @@ p {
     /*border-left: 0.3vw solid;*/
 }
 .informational {
-    font-family: Helvetica, sans-serif;;
-    font-weight: normal;
-    font-size: 1.5vw;
-    /*word-spacing: 3px;*/
-    word-spacing: 0.05vw;
-    letter-spacing: 3px;
+
+    font-size: 1.2vw;
+    word-spacing: 3px;
+
+
 }
 .informational2_small {
     font-family: Helvetica, sans-serif;;
@@ -409,12 +414,17 @@ a:active {
     position:absolute;
 
     color: #ffffff;
-    background-color: rgba(65, 36, 82, 0.95);
+    background-color: rgb(103, 85, 110);
 
     top:13%;
     left:3%;
     height: 10vw;
     width: 30vw;
+
+    text-align:center;
+
+
+
 }
 
 .theimage{
@@ -431,9 +441,9 @@ a:active {
     z-index:3;
 
     color: #ffffff;
-    background-color: rgba(65, 36, 82, 0.95);
+    background-color: rgb(103, 85, 110);
 
-    height: 10vw;
+    height: 9vw;
     width: 25vw;
 
 }
@@ -465,10 +475,13 @@ a:active {
 }
 .btn {
     cursor:pointer;
-    background: rebeccapurple;
     color: #3b3b3b;
     display: inline-block;
     margin-top: 2rem;
+}
+
+a{
+    color: mediumpurple;
 }
 .btn:hover {
     opacity: 0.7;
