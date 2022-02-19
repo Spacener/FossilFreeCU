@@ -54,6 +54,7 @@ p {
     height: 10vw;
     width: 30vw;
 }
+
 .subtitleBox1 {
     display: block;
     float: right;
@@ -116,13 +117,13 @@ p {
 }
 =======
 >>>>>>> Stashed changes
-.informational {
+.informational2_small {
     font-family: Helvetica, sans-serif;;
     font-weight: normal;
-    font-size: 1.5vw;
+    font-size: 1vw;
     /*word-spacing: 3px;*/
     word-spacing: 0.05vw;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 /* Custom Navbar */
 .myNav{
