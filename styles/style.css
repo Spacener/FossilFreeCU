@@ -199,7 +199,14 @@ input {
 /* Charlotte other stuff: */
 .btn {
     display: inline-block;
-    background: 
+    background:7960a9;
+    color:3b3b3b;
+    padding: 0.8rem 1.8 rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity:0.8;
 }
 
 .home-button {
