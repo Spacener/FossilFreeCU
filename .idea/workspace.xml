@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
-    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
+    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="">
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/resources.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/resources.ejs" afterDir="false" />
+    </list>
     <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
-    <list id="d8e416f1-cca6-4b38-8ccc-f80423d58e9d" name="Changes by CharlotteUwU" comment="" />
+    <list id="d8e416f1-cca6-4b38-8ccc-f80423d58e9d" name="Changes by CharlotteUwU" comment="">
+      <change afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+    </list>
     <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
     <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +36,30 @@
         <range start1="124" end1="124" start2="126" end2="163" changelist="febe070e-578d-4b77-8019-e264674c4d4e" />
       </ranges>
     </file>
+    <file path="$PROJECT_DIR$/styles/style.css">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="0" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="22" end1="23" start2="21" end2="22" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="24" end1="25" start2="23" end2="24" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="30" end1="30" start2="29" end2="31" changelist="d8e416f1-cca6-4b38-8ccc-f80423d58e9d" />
+        <range start1="46" end1="46" start2="47" end2="52" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="67" end1="67" start2="73" end2="93" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="85" end1="85" start2="111" end2="134" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="105" end1="105" start2="154" end2="155" changelist="a4e161e9-8c8c-43ef-9570-2f9b88f98297" />
+        <range start1="342" end1="342" start2="392" end2="397" changelist="d8e416f1-cca6-4b38-8ccc-f80423d58e9d" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
