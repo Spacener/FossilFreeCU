@@ -2,6 +2,7 @@
 gold: cfb87b
 purple: 7960a9
 dark gray: 3b3b3b
+grey that matches the logo: 2D2D2D
 black: black
 
 
@@ -19,7 +20,7 @@ body {
 
     padding: 20px;
 
-    background-color: #3b3b3b;
+    background-color: #2D2D2D;
 }
 #body {
     place-items: center;
@@ -84,7 +85,7 @@ p {
     margin-left: 1vw;
     margin-right: auto;
     padding-left: 4vw;
-    padding-top: 1.5vw;
+    padding-top: 1.7vw;
 
     color: #3b3b3b;
     background-color: #cfb87b;
@@ -347,10 +348,10 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
