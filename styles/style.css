@@ -1,5 +1,16 @@
+
+/*
+gold: cfb87b
+purple: 7960a9
+dark gray: 3b3b3b
+black: black
+
+
+*/
+
+
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", Helvetica, sans-serif;;
     padding: 20px;
 
     /*background: #ffcce8;*/
@@ -9,19 +20,77 @@ p {
     font-size: 1.5vw;
 }
 .title {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Verdana", Helvetica, sans-serif;;
     font-weight: bold;
 }
-.titleBox {
-    font-size: 5vw;
+.titleBox1 {
+    font-size: 2vw;
     /*word-spacing: 3px;*/
-    word-spacing: 0.8vw;
-    letter-spacing: 10px;
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
 
-    color: #000000;
-    margin-left: 5vw;
-    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 10vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 10vw;
+    width: 30vw;
+
+    border-bottom: 1vw solid;
+    border-right: 1vw solid;
 }
+.subtitleBox1 {
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    margin-top: 8vw;
+    margin-left: 10vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 10vw;
+    width: 30vw;
+
+    border-bottom: 1vw solid;
+    border-right: 1vw solid;
+}
+.informational {
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    margin-top: 8vw;
+    margin-left: 10vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 10vw;
+    width: 30vw;
+
+    border-bottom: 1vw solid;
+    border-right: 1vw solid;
+}
+/* Custom Navbar */
+.myNav{
+
+    background-color:rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(158, 158, 158, 0.452);
+
+}
+
 .introContainer {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -165,3 +234,4 @@ hr.bLine2 { /* Cool line under "Welcome to Mixr" */
         padding: 1px 20px 20px;
     }
 }
+
