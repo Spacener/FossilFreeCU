@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const port = process.env.port || 3000
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname));
 
 
 
@@ -10,11 +10,11 @@ app.use(express.static(__dirname + '/views'));
 app.set('view engine', 'ejs');
 
 app.get('/', function(req,res) {
-    res.render(__dirname + '/home.ejs');
+    res.render(__dirname + '/views/home.ejs');
 })
 
 app.get('/about', function(req,res) {
-    res.render(__dirname + '/about.ejs');
+    res.render(__dirname + '/views/about.ejs');
 })
 
 app.get('/resources', function(req,res) {
@@ -22,7 +22,7 @@ app.get('/resources', function(req,res) {
 })
 
 app.get('/app', function(req,res) {
-    res.render(__dirname + '/app.ejs');
+    res.render(__dirname + '/views/app.ejs');
 })
 
 app.listen(port, () => {
