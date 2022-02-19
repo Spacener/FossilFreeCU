@@ -1,0 +1,282 @@
+
+/*
+gold: cfb87b
+purple: 7960a9
+dark gray: 3b3b3b
+black: black
+
+
+*/
+
+
+body {
+    font-family: "Verdana", Helvetica, sans-serif;;
+    font-size: 1vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.1vw;
+    letter-spacing: 4px;
+
+    padding: 20px;
+
+    /*background: #ffcce8;*/
+    background: #cccccc;
+}
+p {
+    font-size: 1.5vw;
+}
+#scroll1{
+    background-color: black;
+    padding-top: 2vw;
+
+    margin: 0;
+
+    height: 80vh;
+    width: 100vw;
+}
+.title {
+    font-family: "Verdana", Helvetica, sans-serif;;
+    font-weight: bold;
+}
+.titleBox1 {
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    margin-top: 4vw;
+    margin-left: 10vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 10vw;
+    width: 30vw;
+}
+
+.subtitleBox1 {
+    display: block;
+    float: right;
+
+    margin-top: 8vw;
+    margin-right: 15vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 20vw;
+    width: 40vw;
+
+    /*border-style: outset;*/
+    /*border-bottom: 1vw solid;*/
+    /*border-right: 1vw solid;*/
+    /*border-top: 0.3vw solid;*/
+    /*border-left: 0.3vw solid;*/
+}
+.subtitleBox2 {
+    display: block;
+<<<<<<< Updated upstream
+    /*float: right;*/
+=======
+    float: right;
+>>>>>>> Stashed changes
+
+    margin-top: 8vw;
+    margin-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+<<<<<<< Updated upstream
+    height: 40vw;
+    width: 97vw;
+=======
+    height: 50vw;
+    width: 100vw;
+>>>>>>> Stashed changes
+
+    /*border-style: outset;*/
+    /*border-bottom: 1vw solid;*/
+    /*border-right: 1vw solid;*/
+    /*border-top: 0.3vw solid;*/
+    /*border-left: 0.3vw solid;*/
+}
+<<<<<<< Updated upstream
+.informational {
+    font-family: Helvetica, sans-serif;;
+    font-weight: normal;
+    font-size: 1.5vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.05vw;
+    letter-spacing: 3px;
+}
+=======
+>>>>>>> Stashed changes
+.informational2_small {
+    font-family: Helvetica, sans-serif;;
+    font-weight: normal;
+    font-size: 1vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.05vw;
+    letter-spacing: 2px;
+}
+/* Custom Navbar */
+.myNav{
+
+    background-color:rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(158, 158, 158, 0.452);
+
+}
+
+.introContainer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.info {
+    background-image: linear-gradient(to right,
+    rgba(200, 200, 255, 0.6),
+    rgba(255, 225, 225, 0.8),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 225, 225, 0.8),
+    rgba(200, 200, 255, 0.6)
+    );
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.table {
+    background-color: #f7fbff;
+    flex-grow: 1;
+    border-radius: 10px;
+    border-top: none;
+}
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+th:hover {
+    background-color: #cccccc;
+}
+td {
+    padding: 8px;
+    text-align: left;
+}
+tr {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#topRow:hover {
+    background-color: transparent;
+}
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/*  Round the corners on the table  */
+thead tr:first-child th:first-child {
+    border-radius: 0.5em 0 0 0;
+}
+thead tr:first-child th:last-child {
+    border-radius: 0 0.5em 0 0;
+}
+tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 0.5em;
+}
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 0.5em 0;
+}
+#searchBar {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+.inputButton {
+    margin: 12px 12px 12px 12px;
+}
+input {
+    margin: 12px 12px 12px 12px;
+}
+#input-group{
+    display: block;
+    margin: 12px 12px 12px 12px;
+}
+.input-icon{
+    position: absolute;
+    left: 17px;
+    top: calc(50% - 0.85em); /* Keep icon in center of input, regardless of the input height */
+}
+.input-wrapper{
+    position: relative;
+}
+#aboutButton{
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+/* Remove underline from links until hover */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+
+/* -------------- CHELSEA STUFF LOL ------------------- */
+
+.graphContainers{
+
+    background-color: rgba(183, 164, 213, 0.61);
+
+}
+
+.graph1{
+    display: block;
+    float: left;
+
+    margin-top: 8vw;
+    margin-right: 20vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #2a2a2a;
+    background-color: rgba(183, 164, 213, 0.49);
+
+    height: 20vw;
+    width: 40vw;
+
+
+
+}
+
+.midBox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.arr{
+    width: 5%;
+}
+
