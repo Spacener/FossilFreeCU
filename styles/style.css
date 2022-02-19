@@ -19,16 +19,13 @@ body {
     letter-spacing: 4px;
 
     padding: 20px;
-<<<<<<< HEAD
 
     background-color: #2D2D2D;
-=======
     /*background: #ffcce8;*/
-    background: #cccccc;
+    /*background: #cccccc;*/
     /* margin-bottom: 180px; /* THIS IS FOR THE FOOTER!!*/
     height: 100%;
-    background-color: #3b3b3b;
->>>>>>> main
+    /*background-color: #3b3b3b;*/
 }
 #body {
     place-items: center;
