@@ -11,6 +11,7 @@
     </list>
     <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
     <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
+    <list id="d8e416f1-cca6-4b38-8ccc-f80423d58e9d" name="Changes by CharlotteUwU" comment="" />
     <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
     <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/views/home.ejs">
+      <ranges>
+        <range start1="36" end1="43" start2="36" end2="45" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="45" end1="48" start2="47" end2="50" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="49" end1="50" start2="51" end2="52" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="51" end1="64" start2="53" end2="66" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="65" end1="67" start2="67" end2="69" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="68" end1="72" start2="70" end2="74" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
+        <range start1="124" end1="124" start2="126" end2="163" changelist="febe070e-578d-4b77-8019-e264674c4d4e" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">

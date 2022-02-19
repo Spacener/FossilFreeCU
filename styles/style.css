@@ -339,3 +339,48 @@ a:active {
     width: 5%;
 }
 
+
+/* ---------- Charlotte's scrolling card stuff ----------  */
+/* AOS Library: https://github.com/michalsnik/aos ----- */
+
+.card {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #7960a9; /* POTENTIALLY CHANGE */
+    margin-bottom: 2rem;
+}
+.card img {
+    height: 300px;
+}
+.card > div {
+    padding: 1.5rem;
+}
+.card:nth-child(even) img {
+    order: 2;
+}
+.btn {
+    cursor:pointer;
+    background: rebeccapurple;
+    color: #3b3b3b;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.card header {
+    font-size:xx-large;
+    color: #3b3b3b;
+    color:white;
+}
+.card text {
+    font-size:small;
+    color:white;
+}
+
+@media(max-width: 800px) {
+    .card{ /* scaling settings */
+        display: block;
+    }
+}
