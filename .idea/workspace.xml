@@ -6,24 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
-    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="">
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
->>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/views/resources.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/resources.ejs" afterDir="false" />
     </list>
     <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
     <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
     <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
-    <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="">
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
-    </list>
+    <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,15 +28,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/styles/style.css">
-      <ranges>
-        <range start1="30" end1="31" start2="30" end2="31" changelist="8377e668-1e13-44e2-b23e-aba809b54287" />
-        <range start1="77" end1="77" start2="77" end2="98" changelist="a4e161e9-8c8c-43ef-9570-2f9b88f98297" />
-        <range start1="201" end1="201" start2="222" end2="261" changelist="431b7057-225e-4ff1-9614-4f2f476cb3cc" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="25JCHpjWvOIELNmYp6M3TG3hH2w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
