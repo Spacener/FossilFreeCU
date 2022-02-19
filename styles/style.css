@@ -19,8 +19,16 @@ body {
     letter-spacing: 4px;
 
     padding: 20px;
+<<<<<<< HEAD
 
     background-color: #2D2D2D;
+=======
+    /*background: #ffcce8;*/
+    background: #cccccc;
+    /* margin-bottom: 180px; /* THIS IS FOR THE FOOTER!!*/
+    height: 100%;
+    background-color: #3b3b3b;
+>>>>>>> main
 }
 #body {
     place-items: center;
@@ -28,9 +36,8 @@ body {
 p {
     font-size: 1.5vw;
 }
-
 #wrap {
-    min-height: 100%
+    min-height: 100%;
 }
 #main {
     overflow:auto;
@@ -481,7 +488,17 @@ a:active {
 
 
 .footer {
-    position:fixed;
+    position: relative;
+    margin-top: -100px; /* negative value of footer height */
+    height: 100px;
+    clear:both;
+    padding-top:20px;
+    /* background-color:gray; */
+}
+.footer-text {
+    font-size:medium;
+    font-color:white;
+    text-align:center;
 }
 
 @media(max-width: 800px) {
