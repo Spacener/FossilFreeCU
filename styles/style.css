@@ -394,6 +394,51 @@ a:active {
     width: 5%;
 }
 
+.thetitle{
+
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    z-index:2;
+    position:absolute;
+
+    color: #ffffff;
+    background-color: rgba(65, 36, 82, 0.95);
+
+    top:13%;
+    left:3%;
+    height: 10vw;
+    width: 30vw;
+}
+
+.theimage{
+    z-index: 1;
+    position:relative;
+}
+
+.thesub{
+
+    position:absolute;
+    right:4%;
+    top: 75%;
+
+    z-index:3;
+
+    color: #ffffff;
+    background-color: rgba(65, 36, 82, 0.95);
+
+    height: 10vw;
+    width: 25vw;
+
+}
+
+.coolimg{
+
+    width: 90%;
+
+}
 
 /* ---------- Charlotte's scrolling card stuff ----------  */
 /* AOS Library: https://github.com/michalsnik/aos ----- */
