@@ -1,0 +1,139 @@
+Index: styles/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n/*\ngold: cfb87b\npurple: 7960a9\ndark gray: 3b3b3b\nblack: black\n\n\n*/\n\n\nbody {\n    font-family: \"Verdana\", Helvetica, sans-serif;;\n    font-size: 1vw;\n    /*word-spacing: 3px;*/\n    word-spacing: 0.1vw;\n    letter-spacing: 4px;\n\n    padding: 20px;\n\n    /*background: #ffcce8;*/\n    background: #cccccc;\n}\np {\n    font-size: 1.5vw;\n}\n#scroll1{\n    background-color: black;\n    padding-top: 2vw;\n}\n.title {\n    font-family: \"Verdana\", Helvetica, sans-serif;;\n    font-weight: bold;\n}\n.titleBox1 {\n    font-size: 2vw;\n    /*word-spacing: 3px;*/\n    word-spacing: 0.2vw;\n    letter-spacing: 5px;\n\n    margin-top: 4vw;\n    margin-left: 10vw;\n    padding-left: 4vw;\n    padding-top: 1.5vw;\n\n    color: #3b3b3b;\n    background-color: #cfb87b;\n\n    height: 10vw;\n    width: 30vw;\n}\n.subtitleBox1 {\n    display: block;\n    float: right;\n\n    margin-top: 8vw;\n    margin-right: 15vw;\n    padding-left: 4vw;\n    padding-top: 1.5vw;\n\n    color: #3b3b3b;\n    background-color: #cfb87b;\n\n    height: 20vw;\n    width: 40vw;\n\n    /*border-style: outset;*/\n    /*border-bottom: 1vw solid;*/\n    /*border-right: 1vw solid;*/\n    /*border-top: 0.3vw solid;*/\n    /*border-left: 0.3vw solid;*/\n}\n.informational {\n    font-family: Helvetica, sans-serif;;\n    font-weight: normal;\n    font-size: 1.5vw;\n    /*word-spacing: 3px;*/\n    word-spacing: 0.05vw;\n    letter-spacing: 3px;\n}\n/* Custom Navbar */\n.myNav{\n\n    background-color:rgba(255, 255, 255, 0);\n    border-bottom: 2px solid rgba(158, 158, 158, 0.452);\n\n}\n\n.introContainer {\n    margin-top: 35px;\n    margin-bottom: 20px;\n}\n.info {\n    background-image: linear-gradient(to right,\n    rgba(200, 200, 255, 0.6),\n    rgba(255, 225, 225, 0.8),\n    rgba(255, 255, 255, 0.6),\n    rgba(255, 225, 225, 0.8),\n    rgba(200, 200, 255, 0.6)\n    );\n    margin-top: 20px;\n    margin-right: 150px;\n    margin-left: 150px;\n}\n.table {\n    background-color: #f7fbff;\n    flex-grow: 1;\n    border-radius: 10px;\n    border-top: none;\n}\nth {\n    padding: 8px;\n    text-align: left;\n    border-bottom: 1px solid #ddd;\n    cursor: pointer;\n}\nth:hover {\n    background-color: #cccccc;\n}\ntd {\n    padding: 8px;\n    text-align: left;\n}\ntr {\n    background-color: #ffffff;\n    cursor: pointer;\n}\n#topRow:hover {\n    background-color: transparent;\n}\ntr:hover {\n    background-color: #e0e0e0;\n}\n\n/*  Round the corners on the table  */\nthead tr:first-child th:first-child {\n    border-radius: 0.5em 0 0 0;\n}\nthead tr:first-child th:last-child {\n    border-radius: 0 0.5em 0 0;\n}\ntbody tr:last-child td:first-child {\n    border-radius: 0 0 0 0.5em;\n}\ntbody tr:last-child td:last-child {\n    border-radius: 0 0 0.5em 0;\n}\n#searchBar {\n    width: 100%;\n    font-size: 16px;\n    padding: 12px 20px 12px 40px;\n    border: 1px solid #ddd;\n    margin-bottom: 12px;\n    margin-left: 12px;\n}\n.inputButton {\n    margin: 12px 12px 12px 12px;\n}\ninput {\n    margin: 12px 12px 12px 12px;\n}\n#input-group{\n    display: block;\n    margin: 12px 12px 12px 12px;\n}\n.input-icon{\n    position: absolute;\n    left: 17px;\n    top: calc(50% - 0.85em); /* Keep icon in center of input, regardless of the input height */\n}\n.input-wrapper{\n    position: relative;\n}\n#aboutButton{\n    max-width: 50%;\n    width: 50%;\n    height: auto;\n    left: 0px;\n    right: 0px;\n}\n\n\n\n/* Remove underline from links until hover */\na:link {\n    text-decoration: none;\n}\na:visited {\n    text-decoration: none;\n}\na:hover {\n    text-decoration: underline;\n}\na:active {\n    text-decoration: underline;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/styles/style.css b/styles/style.css
+--- a/styles/style.css	(revision 68321e6aa4fa48f8c7064107d595b4d3a1170824)
++++ b/styles/style.css	(date 1645248884129)
+@@ -70,6 +70,35 @@
+     /*border-top: 0.3vw solid;*/
+     /*border-left: 0.3vw solid;*/
+ }
++.subtitleBox2 {
++    display: block;
++    /*float: right;*/
++
++    margin-top: 8vw;
++    margin-right: 15vw;
++    padding-left: 4vw;
++    padding-top: 1.5vw;
++
++    color: #3b3b3b;
++    background-color: #cfb87b;
++
++    height: 40vw;
++    width: 97vw;
++
++    /*border-style: outset;*/
++    /*border-bottom: 1vw solid;*/
++    /*border-right: 1vw solid;*/
++    /*border-top: 0.3vw solid;*/
++    /*border-left: 0.3vw solid;*/
++}
++.informational {
++    font-family: Helvetica, sans-serif;;
++    font-weight: normal;
++    font-size: 1.5vw;
++    /*word-spacing: 3px;*/
++    word-spacing: 0.05vw;
++    letter-spacing: 3px;
++}
+ .informational {
+     font-family: Helvetica, sans-serif;;
+     font-weight: normal;
+Index: index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const express = require('express')\nconst path = require('path')\nconst app = express()\nconst port = process.env.port || 3000\napp.use(express.static(__dirname));\n\n\n\napp.set('view engine', 'ejs');\n\napp.get('/', function(req,res) {\n    res.render(__dirname + '/views/home.ejs');\n})\n\napp.get('/about', function(req,res) {\n    res.render(__dirname + '/about.ejs');\n})\n\napp.get('/resources', function(req,res) {\n    res.render(__dirname + 'views/resources.ejs');\n})\n\napp.get('/app', function(req,res) {\n    res.render(__dirname + '/app.ejs');\n})\n\napp.listen(port, () => {\n    console.log(`Listening at http://localhost:${port}`)\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.js b/index.js
+--- a/index.js	(revision 68321e6aa4fa48f8c7064107d595b4d3a1170824)
++++ b/index.js	(date 1645248339195)
+@@ -17,7 +17,7 @@
+ })
+ 
+ app.get('/resources', function(req,res) {
+-    res.render(__dirname + 'views/resources.ejs');
++    res.render(__dirname + '/views/resources.ejs');
+ })
+ 
+ app.get('/app', function(req,res) {
+Index: views/resources.ejs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>FossilFreeCU</title>\n\n    <!-- Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n\n    <!--    Our stylesheet-->\n    <link rel=\"stylesheet\" href=\"/styles/style.css\">\n    <!--  Animation stylesheet -->\n    <link rel=\"animation_stylesheet\" href=\"/styles/animation.css\">\n\n    <!--    The Scripts.js file-->\n    <script type=\"text/javascript\" src=\"/scripts/scripts.js\"></script>\n\n    <!-- jQuery library -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n\n    <!-- Latest compiled JavaScript -->\n    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n</head>\n<body>\n    <div id = \"body\">\n        <div class = \"titleBox1\">\n            <div class = \"title\">\n                Our Objective\n            </div>\n        </div>\n\n        <div class=\"subtitleBox1\">\n            <div class=\"informational\">\n                <p>\n                    In the past decade, there has been a surge of activism surrounding<br>\n                    surrounding climate and environmental justice issues. For many students <br>\n                    at universities, information about their respective university's <br>\n                    environmental investments and finances is frustratingly scant - <br>\n                    finding any info can be a needlessly convoluted endeavor. Most of the\n                </p>\n            </div>\n        </div>\n    </div>\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/views/resources.ejs b/views/resources.ejs
+--- a/views/resources.ejs	(revision 68321e6aa4fa48f8c7064107d595b4d3a1170824)
++++ b/views/resources.ejs	(date 1645248768648)
+@@ -29,7 +29,7 @@
+             </div>
+         </div>
+ 
+-        <div class="subtitleBox1">
++        <div class="subtitleBox2">
+             <div class="informational">
+                 <p>
+                     In the past decade, there has been a surge of activism surrounding<br>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"8377e668-1e13-44e2-b23e-aba809b54287\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/styles/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/styles/style.css\" afterDir=\"false\" />\n    </list>\n    <list id=\"a4e161e9-8c8c-43ef-9570-2f9b88f98297\" name=\"Changes by ashleyweaver\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/views/resources.ejs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/resources.ejs\" afterDir=\"false\" />\n    </list>\n    <list id=\"14107e81-47c7-4e44-a0b3-7954f2c0d150\" name=\"Changes by card1\" comment=\"\" />\n    <list id=\"febe070e-578d-4b77-8019-e264674c4d4e\" name=\"Changes by Shock\" comment=\"\" />\n    <list id=\"431b7057-225e-4ff1-9614-4f2f476cb3cc\" name=\"Changes by stock\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"25JCHpjWvOIELNmYp6M3TG3hH2w\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"codeWithMe.voiceChat.enabledByDefault\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/data\" />\n      <recent name=\"$PROJECT_DIR$/styles\" />\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/scripts\" />\n      <recent name=\"$PROJECT_DIR$/views\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"FossilFreeCU\" type=\"NodeJSConfigurationType\" path-to-js-file=\"index.js\" working-dir=\"$PROJECT_DIR$/\">\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"8377e668-1e13-44e2-b23e-aba809b54287\" name=\"Default Changelist\" comment=\"\" />\n      <created>1645235717039</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1645235717039</updated>\n      <workItem from=\"1645235719522\" duration=\"5000\" />\n      <workItem from=\"1645235758882\" duration=\"914000\" />\n      <workItem from=\"1645236948997\" duration=\"2270000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 68321e6aa4fa48f8c7064107d595b4d3a1170824)
++++ b/.idea/workspace.xml	(date 1645248891927)
+@@ -1,13 +1,16 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+-    </list>
+-    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="">
+       <change beforePath="$PROJECT_DIR$/views/resources.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/resources.ejs" afterDir="false" />
+     </list>
++    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
+     <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
+     <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
+     <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="" />
+@@ -27,6 +30,9 @@
+       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+     </file-type-list>
+   </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
+   <component name="ProjectId" id="25JCHpjWvOIELNmYp6M3TG3hH2w" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -77,6 +83,7 @@
+       <workItem from="1645235719522" duration="5000" />
+       <workItem from="1645235758882" duration="914000" />
+       <workItem from="1645236948997" duration="2270000" />
++      <workItem from="1645248030451" duration="656000" />
+     </task>
+     <servers />
+   </component>
+@@ -93,7 +100,6 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
