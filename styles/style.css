@@ -181,42 +181,6 @@ input {
 
 
 
-
-
-/* ------------------ Info Page Styles ------------------ */
-.card {
-    width: 75%;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px 20px 20px;
-    margin-top: 20px;
-    border: 2px solid black;
-    border-radius: 25px;
-}
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 2rem;
-    background: #A9A9A9; /* Dark gray */
-    margin-bottom: 2rem;
-}
-/* Charlotte other stuff: */
-.btn {
-    display: inline-block;
-    background:7960a9;
-    color:3b3b3b;
-    padding: 0.8rem 1.8 rem;
-    margin-top: 2rem;
-    cursor: pointer;
-}
-.btn:hover {
-    opacity:0.8;
-}
-
-.home-button {
-    text-decoration: underline;
-}
-
 /* Remove underline from links until hover */
 a:link {
     text-decoration: none;
@@ -230,23 +194,3 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-
-hr.bLine { /* Cool line under "Welcome to Mixr" */
-    border-top: 4px solid rgb(64, 153, 255);
-    width: 25%;
-    float: left;
-}
-hr.bLine2 { /* Cool line under "Welcome to Mixr" */
-    border-top: 3px solid rgb(64, 153, 255);
-    width: 50%;
-    float: left;
-}
-/*   Responsive layout - when the screen is less than 800px wide,   */
-/*   make the two columns stack on top of each other instead of next to each other   */
-@media screen and (max-width: 800px) {
-    .card, .subheader {
-        width: 100%;
-        padding: 1px 20px 20px;
-    }
-}
-
