@@ -10,7 +10,7 @@
     <!--    Our stylesheet-->
     <link rel="stylesheet" href="/styles/style.css">
     <!--  Animation stylesheet -->
-    <link rel="animation_stylesheet" href="/styles/animation.css">
+    <link rel="stylesheet" href="/styles/animation.css">
 
     <!--    The Scripts.js file-->
     <script type="text/javascript" src="/scripts/scripts.js"></script>
@@ -23,38 +23,146 @@
 
     <!-- AOS library: -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
 
+<%- include('header.ejs') %>
+
 <div id="body">
 
-    <!-- Navigation Bar -->
+    <!-- Title Slide-->
 
-    <nav class="navbar navbar-expand-lg navbar-light myNav">
+    <div id="scroll1" class="container-fluid" style=
+                        "background:transparent url('/resources/oil_colorado.jpeg')
+                                no-repeat center center /cover; height:38vw;"></div>
+        <div class="scroll1Contents" data-aos="fade-right">
+            <div class="titleBox1 ">
+                <div class="title">
+                   CU Invests in Fossil Fuels
+                </div>
+            </div>
 
-        <form class="ml-auto">
-            <button class="btn" type="submit">About</button>
-            <button class="btn" type="submit"><a href="/resources">Resources</a></button>
-        </form>
 
-    </nav>
+            <div class="subtitleBox1">
+                <div class="informational">
+                    Typy typy wipey wipey
 
-    <div id="scroll1">
+                    <div id="chart1">
 
-        <div class="titleBox1">
+                        <section class="circle-chart-container">
+                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" >
+                                <circle stroke="#efefef" stroke-width=".5" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                <circle class="circle-chart-circle" stroke="#2f2f2f" stroke-width="3" stroke-dasharray="100,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                            </svg>
+                            <span class="circle-chart-percentage circle-chart-one-percentage">
+                            27%
+                        </span>
+                            <svg class="circle-chart circle-chart-two" viewbox="0 0 33.83098862 33.83098862" >
+                                <circle stroke="#efefef" stroke-width="0" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                                <circle class="circle-chart-circle" stroke="#7a4d4d" stroke-width="3" stroke-dasharray="31,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                            </svg>
+                            <span class="circle-chart-percentage circle-chart-two-percentage">
+
+                        </span>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-3" style="height:200px;"></div>
+
+    <div id="scroll2" class="container-fluid">
+
+        <div class="titleBox2">
             <div class="title">
                 CU Invests in Fossil Fuels
             </div>
         </div>
 
-        <div class="subtitleBox1">
-            <div class="informational">
-                Typy typy wipey wipey
+        <div class="container graph1">
+
+            <p>percentage of investments that are for BAD GUYS!!</p>
+
+            <!-- Chart1 -->
+
+            <div id="chart1">
+
+                <section class="circle-chart-container">
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" >
+                        <circle stroke="#efefef" stroke-width=".5" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <circle class="circle-chart-circle" stroke="#2f2f2f" stroke-width="3" stroke-dasharray="100,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                    </svg>
+                    <span class="circle-chart-percentage circle-chart-one-percentage">
+                        27%
+                    </span>
+                    <svg class="circle-chart circle-chart-two" viewbox="0 0 33.83098862 33.83098862" >
+                        <circle stroke="#efefef" stroke-width="0" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                        <circle class="circle-chart-circle" stroke="#7a4d4d" stroke-width="3" stroke-dasharray="31,100" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+                    </svg>
+                    <span class="circle-chart-percentage circle-chart-two-percentage">
+
+                    </span>
+                </section>
+
             </div>
         </div>
 
+        <div class="subtitleBox2">
+            <div class="informational">
+                Typy typy wipey wipey
+
+            </div>
+        </div>
+
+
+
     </div>
+
+
+<div class = container>
+    <section class="card">
+        <div>
+            <p>
+            <h3>Test 2!</h3>
+            <text> Text goes here! this is just the paragraph text! </text>
+            </p>
+        </div>
+
+    </section>
+</div>
+
+
+<div class = container>
+    <section class="card" data-aos="fade-right">
+        <div>
+            <header>
+                Test! 3
+            </header>
+        </div>
+
+    </section>
+</div>
+<div class = container>
+    <section class="card" data-aos="fade-left">
+        <div>
+            <img src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" width="400px">
+            <p>
+            <header>Test! 4 </header>
+            <text> TEST TEST TEST TEST TEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TESTTEST TEST
+            </text>
+            </p>
+
+        </div>
+
+    </section>
+</div>
+
+
 
 
     <div id=""></div>

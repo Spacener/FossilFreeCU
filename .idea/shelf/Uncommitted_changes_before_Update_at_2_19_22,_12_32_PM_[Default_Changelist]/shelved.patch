@@ -1,0 +1,87 @@
+Index: views/resources.ejs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>FossilFreeCU</title>\n\n    <!-- Bootstrap -->\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n\n    <!--    Our stylesheet-->\n    <link rel=\"stylesheet\" href=\"/styles/style.css\">\n    <!--  Animation stylesheet -->\n    <link rel=\"animation_stylesheet\" href=\"/styles/animation.css\">\n\n    <!--    The Scripts.js file-->\n    <script type=\"text/javascript\" src=\"/scripts/scripts.js\"></script>\n\n    <!-- jQuery library -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\n\n    <!-- Latest compiled JavaScript -->\n    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n</head>\n<body>\n    <nav class=\"navbar navbar-expand-lg navbar-light myNav\">\n        <img src=\"/resources/circleEx.jpeg\" width=\"75\" height=\"75\">\n        <form class=\"ml-auto\">\n            <button class=\"btn\" type=\"submit\"><a href=\"/\">About</a></button>\n            <button class=\"btn\" type=\"submit\"><a href=\"/resources\">Resources</a></button>\n        </form>\n\n    </nav>\n\n    <div id = \"body\">\n        <div class = \"titleBox1\" style = \"height: 5vw;\">\n            <div class = \"title\">\n                <p>Our Objective</p>\n            </div>\n        </div>\n        <p></p>\n        <div class=\"subtitleBox2\" style = \"height: 30vw; width: 80vw;\">\n            <div class=\"informational2_small\">\n                <p style = \"font-size:16px; text-align: center;\">\n                    In the past decade, there has been a surge of activism surrounding<br>\n                    climate and environmental justice issues. For many students, <br>\n                    information about their respective university's <br>\n                    environmental investments and finances is frustratingly scant - <br>\n                    finding any info can be a needlessly convoluted endeavor. Most of the <br>\n                    time, if information is found, it's articles detailing pledges and promises <br>\n                    from the university as opposed to any hard data, and any that can be found <br>\n                    is usually in contrast to those shallow words; proof of investments to <br>\n                    and kickbacks from companies that are engaged in and/or in support <br>\n                    of fracking and other nonrenewable energy sources.\n                </p>\n                <p style = \"font-size:16px; text-align: center;\">\n                    This is the case with the university of Colorado Boulder. Our website <br>\n                    aims to illustrate what CU Boulder attempts to hide: how the pledges <br>\n                    and promises to renewable energy are surrounded by profitable <br>\n                    investments by the university to the university by fossil <br>\n                    fuel related companies. Additionally, we aim to show other students how <br>\n                    they can make a difference and see what their university may be hiding <br>\n                    from them.\n                </p>\n            </div>\n        </div>\n\n        <p></p>\n\n        <div class = \"row\">\n            <div class = \"col-md-6\" style=\"display:inline-block;vertical-align:top;\">\n                <img src=\"/resources/oil_colorado.jpeg\" alt=\"img\" style = \"max-width: 70%;float: right;\"/>\n            </div>\n            <div style=\"display:inline-block;\">\n                <p class = \"col-md-6\">\n                    Here goes the text content.\n                </p>\n            </div>\n        </div>\n\n\n    </div>\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/views/resources.ejs b/views/resources.ejs
+--- a/views/resources.ejs	(revision f4593e27f83423790045abb3596b488f373fe46e)
++++ b/views/resources.ejs	(date 1645299130154)
+@@ -30,16 +30,14 @@
+         </form>
+ 
+     </nav>
+-
+     <div id = "body">
+         <div class = "titleBox1" style = "height: 5vw;">
+             <div class = "title">
+                 <p>Our Objective</p>
+             </div>
+         </div>
+-        <p></p>
+-        <div class="subtitleBox2" style = "height: 30vw; width: 80vw;">
+-            <div class="informational2_small">
++        <div class="subtitleBox2" style = "height: 30vw; width: 84vw; margin-top: 2vw;">
++            <div class="informational">
+                 <p style = "font-size:16px; text-align: center;">
+                     In the past decade, there has been a surge of activism surrounding<br>
+                     climate and environmental justice issues. For many students, <br>
+@@ -63,22 +61,46 @@
+                 </p>
+             </div>
+         </div>
++    </div>
+ 
+-        <p></p>
+-
+-        <div class = "row">
+-            <div class = "col-md-6" style="display:inline-block;vertical-align:top;">
+-                <img src="/resources/oil_colorado.jpeg" alt="img" style = "max-width: 70%;float: right;"/>
++    <div class = "container">
++        <h1 class="title">Resources</h1>
++        <div class="row text-center">
++            <div class="col-md-6">
++                <img class="" src="/resources/oil_colorado.jpeg" style="max-width: 100%; float: left;">
+             </div>
+-            <div style="display:inline-block;">
+-                <p class = "col-md-6">
+-                    Here goes the text content.
++            <div class="col-md-6">
++                <p style = "font-size:16px; text-align: left;">
++                <ul>
++                    <li style="text-align: left;">
++                        If you want to find out info about your school click
++                        <a href="https://news.littlesis.org/2020/10/21/five-ways-to-research-your-universitys-fossil-fuel-and-other-investments/">
++                            here </a>
++                    </li>
++                    <p></p>
++                    <li style="text-align: left;">
++                        2017 University of Colorado 990 Form about investments
++                        <a href="https://projects.propublica.org/nonprofits/organizations/846049811">
++                            here </a>
++                    </li>
++                    <p></p>
++                    <li style="text-align: left;">
++                        University of Colorado sustainability report
++                        <a href="https://www.cu.edu/doc/2021cusustainabilityreportpdf">
++                            here </a>
++                    </li>
++                    <p></p>
++                    <li style="text-align: left;">
++                        University of Colorado financial report
++                        <a href="https://www.cu.edu/dept/controller">
++                            here </a>
++                    </li>
++                </ul>
+                 </p>
+             </div>
+         </div>
+-
+-
+     </div>
++
+ </body>
+ 
+ </html>
+\ No newline at end of file

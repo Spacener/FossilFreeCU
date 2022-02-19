@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../JavaScript_Projects/BigOil/.idea/BigOil.iml" filepath="$PROJECT_DIR$/../../JavaScript_Projects/BigOil/.idea/BigOil.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FossilFreeCU.iml" filepath="$PROJECT_DIR$/.idea/FossilFreeCU.iml" />
     </modules>
   </component>

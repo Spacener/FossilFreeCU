@@ -141,10 +141,6 @@
 
 /* -------------- Circle Chart Animation -----------------*/
 
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 20px;
-}
 
 /* Circle Chart */
 .circle-chart-container {
