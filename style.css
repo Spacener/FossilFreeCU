@@ -1,0 +1,167 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
+
+    /*background: #ffcce8;*/
+    background: #cccccc;
+}
+p {
+    font-size: 1.5vw;
+}
+.title {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+.titleBox {
+    font-size: 5vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.8vw;
+    letter-spacing: 10px;
+
+    color: #000000;
+    margin-left: 5vw;
+    height: 20vw;
+}
+.introContainer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.info {
+    background-image: linear-gradient(to right,
+    rgba(200, 200, 255, 0.6),
+    rgba(255, 225, 225, 0.8),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 225, 225, 0.8),
+    rgba(200, 200, 255, 0.6)
+    );
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.table {
+    background-color: #f7fbff;
+    flex-grow: 1;
+    border-radius: 10px;
+    border-top: none;
+}
+th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+th:hover {
+    background-color: #cccccc;
+}
+td {
+    padding: 8px;
+    text-align: left;
+}
+tr {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#topRow:hover {
+    background-color: transparent;
+}
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/*  Round the corners on the table  */
+thead tr:first-child th:first-child {
+    border-radius: 0.5em 0 0 0;
+}
+thead tr:first-child th:last-child {
+    border-radius: 0 0.5em 0 0;
+}
+tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 0.5em;
+}
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 0.5em 0;
+}
+#searchBar {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+.inputButton {
+    margin: 12px 12px 12px 12px;
+}
+input {
+    margin: 12px 12px 12px 12px;
+}
+#input-group{
+    display: block;
+    margin: 12px 12px 12px 12px;
+}
+.input-icon{
+    position: absolute;
+    left: 17px;
+    top: calc(50% - 0.85em); /* Keep icon in center of input, regardless of the input height */
+}
+.input-wrapper{
+    position: relative;
+}
+#aboutButton{
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+
+
+/* ------------------ Info Page Styles ------------------ */
+.card {
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 20px 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.home-button {
+    text-decoration: underline;
+}
+
+/* Remove underline from links until hover */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+hr.bLine { /* Cool line under "Welcome to Mixr" */
+    border-top: 4px solid rgb(64, 153, 255);
+    width: 25%;
+    float: left;
+}
+hr.bLine2 { /* Cool line under "Welcome to Mixr" */
+    border-top: 3px solid rgb(64, 153, 255);
+    width: 50%;
+    float: left;
+}
+/*   Responsive layout - when the screen is less than 800px wide,   */
+/*   make the two columns stack on top of each other instead of next to each other   */
+@media screen and (max-width: 800px) {
+    .card, .subheader {
+        width: 100%;
+        padding: 1px 20px 20px;
+    }
+}

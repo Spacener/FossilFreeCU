@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Oil</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--    Our stylesheet-->
+    <link rel="stylesheet" href="/style.css">
+
+    <!--    The Scripts.js file-->
+    <script type="text/javascript" src="/scripts.js"></script>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<!--<body onload="loadBigOil()">-->
+
+<body id="body" onload="loadBigOil()">
+
+
+    <h1 id="big_text">Wells in Colorado</h1>
+    <p>Search by:</p>
+    <div id="input-group">
+        <div class="input-group">
+            <input type="radio" class="inputButton" onclick="searchFunction()" name="searchFunction" id="button1" value="County">County
+            <input type="radio" class="inputButton" onclick="searchFunction()" name="searchFunction" id="button2" value="Owner">Owner
+            <input type="radio" class="inputButton" onclick="searchFunction()" name="searchFunction" id="button3" value="Field Name">Field Name
+            <br>
+            <input type="text" id="searchBar" onkeyup="searchFunction()" placeholder="Search">
+            <label for="searchBar" class="fa fa-search input-icon"></label>
+            <br>
+            <label id="resultsCount">0 results showing</label>
+            <br>
+            <input type="radio" class="inputButton" onclick="window.location.reload()" name="nResults" id="button4" value="100">100
+            <input type="radio" class="inputButton" onclick="window.location.reload()" name="nResults" id="button5" value="1000">1,000
+            <input type="radio" class="inputButton" onclick="window.location.reload()" name="nResults" id="button6" value="10000">10,000
+        </div>
+    </div>
+
+    <div id="list" class="list">
+        <!--   Posts are entered here on load   -->
+    </div>
+
+
+
+
+<script>
+
+    $(document).ready(function(){
+        $.ajax({
+            url:"well_data.csv",
+            dataType:"text",
+            success:function(data)
+            {
+                console.log("Parsing data...")
+
+                var well_data = data.split(/\r?\n|\r/);
+                var table_data = '<table class="table table-bordered table-striped">';
+
+                var nResults = 100
+
+                for(var count = 0; count < 10000; count++) {
+                    var cell_data = well_data[count].split(",");
+                    // console.log(cell_data)
+                    table_data += '' +
+                        '<tr>';
+
+                    for(var cell_count=0; cell_count < cell_data.length; cell_count++) {
+
+                        // console.log(well_data[count][cell_count])
+                        if(count === 0)
+                        {
+                            table_data += '<th>'+cell_data[cell_count]+'</th>';
+                        }
+                        else
+                        {
+                            table_data += '<td>'+cell_data[cell_count]+'</td>';
+                        }
+                    }
+                    table_data += '</tr>';
+                }
+                table_data += '</table>';
+                $('#list').html(table_data);
+
+                console.log("Data parsed.")
+            }
+        });
+
+    });
+
+</script>
+
+</body>
+
+<script>
+
+</script>
+
+
+</html>
