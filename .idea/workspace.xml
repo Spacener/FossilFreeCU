@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/home.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
+    <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
+    <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
+    <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
+    <list id="431b7057-225e-4ff1-9614-4f2f476cb3cc" name="Changes by stock" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="25JCHpjWvOIELNmYp6M3TG3hH2w" />
   <component name="ProjectViewState">
@@ -21,8 +35,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -39,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645235717039</updated>
       <workItem from="1645235719522" duration="5000" />
-      <workItem from="1645235758882" duration="739000" />
+      <workItem from="1645235758882" duration="914000" />
+      <workItem from="1645236948997" duration="687000" />
     </task>
     <servers />
   </component>
@@ -56,5 +73,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
