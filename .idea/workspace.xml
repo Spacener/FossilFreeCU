@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="8377e668-1e13-44e2-b23e-aba809b54287" name="Default Changelist" comment="" />
     <list id="a4e161e9-8c8c-43ef-9570-2f9b88f98297" name="Changes by ashleyweaver" comment="" />
     <list id="14107e81-47c7-4e44-a0b3-7954f2c0d150" name="Changes by card1" comment="" />
     <list id="febe070e-578d-4b77-8019-e264674c4d4e" name="Changes by Shock" comment="" />
@@ -79,7 +75,7 @@
       <workItem from="1645235719522" duration="5000" />
       <workItem from="1645235758882" duration="914000" />
       <workItem from="1645236948997" duration="2270000" />
-      <workItem from="1645300129668" duration="5428000" />
+      <workItem from="1645300129668" duration="5468000" />
     </task>
     <servers />
   </component>
