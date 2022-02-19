@@ -2,6 +2,7 @@
 gold: cfb87b
 purple: 7960a9
 dark gray: 3b3b3b
+grey that matches the logo: 2D2D2D
 black: black
 
 
@@ -18,11 +19,13 @@ body {
     letter-spacing: 4px;
 
     padding: 20px;
+
+    background-color: #2D2D2D;
     /*background: #ffcce8;*/
-    background: #cccccc;
+    /*background: #cccccc;*/
     /* margin-bottom: 180px; /* THIS IS FOR THE FOOTER!!*/
     height: 100%;
-    background-color: #3b3b3b;
+    /*background-color: #3b3b3b;*/
 }
 #body {
     place-items: center;
@@ -86,7 +89,7 @@ p {
     margin-left: 1vw;
     margin-right: auto;
     padding-left: 4vw;
-    padding-top: 1.5vw;
+    padding-top: 1.7vw;
 
     color: #3b3b3b;
     background-color: #cfb87b;
@@ -349,10 +352,10 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -395,6 +398,51 @@ a:active {
     width: 5%;
 }
 
+.thetitle{
+
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    z-index:2;
+    position:absolute;
+
+    color: #ffffff;
+    background-color: rgba(65, 36, 82, 0.95);
+
+    top:13%;
+    left:3%;
+    height: 10vw;
+    width: 30vw;
+}
+
+.theimage{
+    z-index: 1;
+    position:relative;
+}
+
+.thesub{
+
+    position:absolute;
+    right:4%;
+    top: 75%;
+
+    z-index:3;
+
+    color: #ffffff;
+    background-color: rgba(65, 36, 82, 0.95);
+
+    height: 10vw;
+    width: 25vw;
+
+}
+
+.coolimg{
+
+    width: 90%;
+
+}
 
 /* ---------- Charlotte's scrolling card stuff ----------  */
 /* AOS Library: https://github.com/michalsnik/aos ----- */
