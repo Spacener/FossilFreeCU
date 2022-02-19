@@ -11,6 +11,11 @@ black: black
 
 body {
     font-family: "Verdana", Helvetica, sans-serif;;
+    font-size: 1vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.1vw;
+    letter-spacing: 4px;
+
     padding: 20px;
 
     /*background: #ffcce8;*/
@@ -39,49 +44,35 @@ p {
 
     height: 10vw;
     width: 30vw;
-
-    border-bottom: 1vw solid;
-    border-right: 1vw solid;
 }
 .subtitleBox1 {
-    font-size: 2vw;
-    /*word-spacing: 3px;*/
-    word-spacing: 0.2vw;
-    letter-spacing: 5px;
+    display: block;
+    float: right;
 
     margin-top: 8vw;
-    margin-left: 10vw;
+    margin-right: 20vw;
     padding-left: 4vw;
     padding-top: 1.5vw;
 
     color: #3b3b3b;
     background-color: #cfb87b;
 
-    height: 10vw;
-    width: 30vw;
+    height: 20vw;
+    width: 40vw;
 
+    border-style: outset;
     border-bottom: 1vw solid;
     border-right: 1vw solid;
+    /*border-top: 0.3vw solid;*/
+    /*border-left: 0.3vw solid;*/
 }
 .informational {
-    font-size: 2vw;
+    font-family: Helvetica, sans-serif;;
+    font-weight: normal;
+    font-size: 1.5vw;
     /*word-spacing: 3px;*/
-    word-spacing: 0.2vw;
-    letter-spacing: 5px;
-
-    margin-top: 8vw;
-    margin-left: 10vw;
-    padding-left: 4vw;
-    padding-top: 1.5vw;
-
-    color: #3b3b3b;
-    background-color: #cfb87b;
-
-    height: 10vw;
-    width: 30vw;
-
-    border-bottom: 1vw solid;
-    border-right: 1vw solid;
+    word-spacing: 0.05vw;
+    letter-spacing: 3px;
 }
 /* Custom Navbar */
 .myNav{
