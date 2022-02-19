@@ -2,7 +2,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
-    "heroku": "^7.59.2"
+    "heroku": "^7.33.3"
   },
   "name": "fossilfreecu",
   "description": "",
