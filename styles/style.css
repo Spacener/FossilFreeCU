@@ -114,7 +114,7 @@ p {
     position: absolute;
 
     float:right;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 65%;
     padding-left: 4vw;
     padding-top: 1.7vw;
@@ -151,7 +151,7 @@ p {
     display: block;
     float: right;
 
-    margin-top: 25%;
+    margin-top: -1%;
     margin-right: 4%;
     padding: 2%;
 
@@ -211,6 +211,30 @@ p {
     border-bottom: 2px solid rgba(158, 158, 158, 0.452);
 
 }
+
+.img2{
+
+    display: block;
+    float: left;
+
+    margin-left: 4%;
+    margin-top: 7%;
+    padding: 2%;
+
+
+    color: #000000;
+    background-color: #cfb87b;
+
+    width: 40%;
+
+}
+
+.poop{
+    width: 80%
+}
+
+
+
 /* Testing comment */
 .introContainer {
     margin-top: 35px;
