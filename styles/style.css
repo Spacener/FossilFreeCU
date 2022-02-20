@@ -26,7 +26,7 @@ body {
     background-color: #2D2D2D;
     /*background: #ffcce8;*/
     /*background: #cccccc;*/
-    /* margin-bottom: 180px; /* THIS IS FOR THE FOOTER!!*/
+    /* margin-bottom: 5px; /* THIS IS FOR THE FOOTER!!*/
     height: 100%;
     /*background-color: #3b3b3b;*/
 }
@@ -229,7 +229,6 @@ p {
 
     background-color:rgba(255, 255, 255, 0);
     border-bottom: 2px solid rgba(158, 158, 158, 0.452);
-
 }
 /* Testing comment */
 .introContainer {
@@ -474,6 +473,8 @@ a:active {
     color: #3b3b3b;
     display: inline-block;
     margin-top: 2rem;
+    font-family: 'Cardo', serif;
+    font-size: 1vw;
 }
 
 a{
@@ -495,10 +496,10 @@ a{
 
 .footer {
     position: relative;
-    margin-top: -100px; /* negative value of footer height */
-    height: 100px;
+    margin-top: -50px; /* negative value of footer height */
+    height: 50px;
     clear:both;
-    padding-top:20px;
+    padding-top:10px;
     /* background-color:gray; */
 }
 .footer-text {
