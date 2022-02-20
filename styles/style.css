@@ -456,7 +456,7 @@ a:active {
 .card {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     background: #7960a9; /* POTENTIALLY CHANGE */
     margin-bottom: 2rem;
 }
@@ -464,7 +464,7 @@ a:active {
     height: 300px;
 }
 .card > div {
-    padding: 1.5rem;
+    padding: 2rem;
 }
 .card:nth-child(even) img {
     order: 2;
@@ -508,27 +508,31 @@ a{
 }
 
 /* Bar Graph Horizontal */
-.bar-graph .year {
+.bar-graph .company {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
     -moz-animation: fade-in-text 2.2s 0.1s forwards;
     animation: fade-in-text 2.2s 0.1s forwards;
     opacity: 0;
+    color:white;
 }
 
 .bar-graph-horizontal {
-    max-width: 380px;
+    max-width: 342px;
 }
+
 
 .bar-graph-horizontal > div {
     float: left;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
     width: 100%;
 }
 
-.bar-graph-horizontal .year {
+.bar-graph-horizontal .company {
     float: left;
-    margin-top: 18px;
-    width: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 300px; /* EDIT IF NEEDED */
+    color: #dcdcdc;
 }
 
 .bar-graph-horizontal .bar {
@@ -538,6 +542,8 @@ a{
     overflow: hidden;
     position: relative;
     width: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .bar-graph-one .bar::after {
@@ -546,74 +552,105 @@ a{
     animation: fade-in-text 2.2s 0.1s forwards;
     color: #fff;
     content: attr(data-percentage);
-    font-weight: 700;
+    font-weight: 600;
     position: absolute;
-    right: 16px;
+    right: 1px;
     top: 17px;
 }
 
 .bar-graph-one .bar-one .bar {
-    background-color: #64b2d1;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-one 1.2s 0.1s forwards;
     -moz-animation: show-bar-one 1.2s 0.1s forwards;
     animation: show-bar-one 1.2s 0.1s forwards;
 }
 
 .bar-graph-one .bar-two .bar {
-    background-color: #5292ac;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-two 1.2s 0.2s forwards;
     -moz-animation: show-bar-two 1.2s 0.2s forwards;
     animation: show-bar-two 1.2s 0.2s forwards;
 }
 
 .bar-graph-one .bar-three .bar {
-    background-color: #407286;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-three 1.2s 0.3s forwards;
     -moz-animation: show-bar-three 1.2s 0.3s forwards;
     animation: show-bar-three 1.2s 0.3s forwards;
 }
 
 .bar-graph-one .bar-four .bar {
-    background-color: #2e515f;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-four 1.2s 0.4s forwards;
     -moz-animation: show-bar-four 1.2s 0.4s forwards;
     animation: show-bar-four 1.2s 0.4s forwards;
 }
 
+.bar-graph-one .bar-five .bar {
+    background-color: darkslateblue;
+    -webkit-animation: show-bar-five 1.2s 0.4s forwards;
+    -moz-animation: show-bar-five 1.2s 0.4s forwards;
+    animation: show-bar-five 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-six .bar {
+    background-color: #2e515f;
+    -webkit-animation: show-bar-six 1.2s 0.4s forwards;
+    -moz-animation: show-bar-six 1.2s 0.4s forwards;
+    animation: show-bar-six 1.2s 0.4s forwards;
+}
+
 /* Bar Graph Horizontal Animations */
-@-webkit-keyframes show-bar-one {
+@-webkit-keyframes show-bar-one { /* Charlebank Equity Fund VI, LP */
     0% {
         width: 0;
     }
     100% {
-        width: 69.6%;
+        width: 102%;
     }
 }
 
-@-webkit-keyframes show-bar-two {
+@-webkit-keyframes show-bar-two {/* EIG Energy Fund XIV-A, LP */
     0% {
         width: 0;
     }
     100% {
-        width: 71%;
+        width: 51.4%;
     }
 }
 
-@-webkit-keyframes show-bar-three {
+@-webkit-keyframes show-bar-three { /* Redfish LP */
     0% {
         width: 0;
     }
     100% {
-        width: 74.7%;
+        width: 32.2%;
+    }
+}
+@-webkit-keyframes show-bar-four { /* Madison dearborn Capital Partners VI-B, LP */
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 37.58%;
     }
 }
 
-@-webkit-keyframes show-bar-four {
+@-webkit-keyframes show-bar-five { /* Amerra Agri Fund II, LP */
     0% {
         width: 0;
     }
     100% {
-        width: 76.8%;
+        width: 12.56%;
+    }
+}
+
+@-webkit-keyframes show-bar-six { /* Total Gains */
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 200%;
     }
 }
 
