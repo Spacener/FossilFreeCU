@@ -2,8 +2,12 @@
 gold: cfb87b
 purple: 7960a9
 dark gray: 3b3b3b
+grey that matches the logo: 2D2D2D
 black: black
 
+
+
+purple cool: rgba(103, 85, 110, 0.95);
 
 */
 
@@ -11,19 +15,27 @@ black: black
 body {
 
     overflow-x: hidden;
-    font-family: "Verdana", Helvetica, sans-serif;;
+    font-family: 'Cardo', serif;
     font-size: 1vw;
     /*word-spacing: 3px;*/
     word-spacing: 0.1vw;
     letter-spacing: 4px;
 
     padding: 20px;
+
+    background-color: #2D2D2D;
     /*background: #ffcce8;*/
-    background: #cccccc;
+    /*background: #cccccc;*/
     /* margin-bottom: 180px; /* THIS IS FOR THE FOOTER!!*/
     height: 100%;
-    background-color: #3b3b3b;
+    /*background-color: #3b3b3b;*/
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
 #body {
     place-items: center;
 }
@@ -70,15 +82,11 @@ p {
     height: 100%;
     width: 100%;
 }
-.title {
-    font-family: "Verdana", Helvetica, sans-serif;;
-    font-weight: bold;
-}
+
 .titleBox1 {
     font-size: 2vw;
     /*word-spacing: 3px;*/
     word-spacing: 0.2vw;
-    letter-spacing: 5px;
     position: absolute;
 
     float: left;
@@ -86,29 +94,10 @@ p {
     margin-left: 1vw;
     margin-right: auto;
     padding-left: 4vw;
-    padding-top: 1.5vw;
+    padding-top: 1.7vw;
 
-    color: #3b3b3b;
-    background-color: #cfb87b;
+    color: #ffffff;
 
-    height: 10vw;
-    width: 30vw;
-}
-.titleBox2 {
-    font-size: 2vw;
-    /*word-spacing: 3px;*/
-    word-spacing: 0.2vw;
-    letter-spacing: 5px;
-
-    position: center;
-    margin-top: 4vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 4vw;
-    padding-top: 1.5vw;
-
-    color: #3b3b3b;
-    background-color: #cfb87b;
 
     height: 10vw;
     width: 30vw;
@@ -137,18 +126,16 @@ p {
     display: block;
     float: right;
 
-    margin-top: 2vw;
-    margin-right: 3vw;
-    padding-left: 4vw;
-    padding-top: 1.5vw;
+    margin-top: 10%;
+    margin-right: 40%;
+    padding: 2%;
 
 
-
-    color: #3b3b3b;
-    background-color: #cfb87b;
+    color: #ffffff;
+    background-color: rgba(103, 85, 110, 0.95);
 
     height: 25vw;
-    width: 20vw;
+    width: 30%;
 
     /*border-style: outset;*/
     /*border-bottom: 1vw solid;*/
@@ -223,12 +210,11 @@ p {
     /*border-left: 0.3vw solid;*/
 }
 .informational {
-    font-family: Helvetica, sans-serif;;
-    font-weight: normal;
-    font-size: 1.5vw;
-    /*word-spacing: 3px;*/
-    word-spacing: 0.05vw;
-    letter-spacing: 3px;
+
+    font-size: 1.2vw;
+    word-spacing: 3px;
+
+
 }
 .informational2_small {
     font-family: Helvetica, sans-serif;;
@@ -349,10 +335,10 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -395,6 +381,74 @@ a:active {
     width: 5%;
 }
 
+.thetitle{
+
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
+
+    z-index:2;
+    position:absolute;
+
+    color: #ffffff;
+    background-color: rgb(103, 85, 110);
+
+    top:13%;
+    left:3%;
+    height: 10vw;
+    width: 30vw;
+
+    text-align:center;
+
+
+
+}
+
+.theimage{
+    z-index: 1;
+    position:relative;
+}
+
+.thesub{
+
+    position:absolute;
+    right:4%;
+    top: 75%;
+
+    z-index:3;
+
+    color: #ffffff;
+    background-color: rgb(103, 85, 110);
+
+    height: 9vw;
+    width: 25vw;
+
+}
+
+.coolimg{
+
+    width: 90%;
+
+}
+
+.chart1Holder{
+
+    display: block;
+    float: right;
+
+    margin-top: -25%;
+    margin-right: 60%;
+    padding: 2%;
+
+
+
+
+    height: 25vw;
+    width: 30%;
+
+
+}
 
 /* ---------- Charlotte's scrolling card stuff ----------  */
 /* AOS Library: https://github.com/michalsnik/aos ----- */
@@ -417,10 +471,13 @@ a:active {
 }
 .btn {
     cursor:pointer;
-    background: rebeccapurple;
     color: #3b3b3b;
     display: inline-block;
     margin-top: 2rem;
+}
+
+a{
+    color: mediumpurple;
 }
 .btn:hover {
     opacity: 0.7;
@@ -450,8 +507,6 @@ a:active {
     text-align:center;
 }
 
-<<<<<<< Updated upstream
-=======
 /* Bar Graph Horizontal */
 .bar-graph .company {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
@@ -464,6 +519,7 @@ a:active {
 .bar-graph-horizontal {
     max-width: 342px;
 }
+
 
 .bar-graph-horizontal > div {
     float: left;
@@ -607,7 +663,6 @@ a:active {
     }
 }
 
->>>>>>> Stashed changes
 @media(max-width: 800px) {
     .card{ /* scaling settings */
         display: block;
