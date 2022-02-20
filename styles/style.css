@@ -102,7 +102,25 @@ p {
     height: 10vw;
     width: 30vw;
 }
+.titleBox2 {
+    font-size: 2vw;
+    /*word-spacing: 3px;*/
+    word-spacing: 0.2vw;
+    letter-spacing: 5px;
 
+    float: left;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-right: auto;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 5vw;
+    width: 30vw;
+}
 
 .subtitleBox1 {
     display: block;
