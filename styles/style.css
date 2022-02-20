@@ -111,18 +111,19 @@ p {
     font-size: 2vw;
     /*word-spacing: 3px;*/
     word-spacing: 0.2vw;
-    position: absolute;
+    letter-spacing: 5px;
 
-    float:right;
-    margin-top: 15%;
-    margin-left: 65%;
+    float: left;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-right: auto;
     padding-left: 4vw;
-    padding-top: 1.7vw;
+    padding-top: 1.5vw;
 
-    color: #ffffff;
+    color: #3b3b3b;
+    background-color: #cfb87b;
 
-
-    height: 10vw;
+    height: 5vw;
     width: 30vw;
 }
 
@@ -151,19 +152,43 @@ p {
     display: block;
     float: right;
 
-    margin-top: 25%;
-    margin-right: 4%;
-    padding: 2%;
+    margin-top: -25vw;
+    margin-right: 3vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
 
 
-    color: #ffffff;
-    background-color: rgba(103, 85, 110, 0.95);
 
-    height: 35vw;
-    width: 30%;
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 25vw;
+    width: 40vw;
+
+    /*border-style: outset;*/
+    /*border-bottom: 1vw solid;*/
+    /*border-right: 1vw solid;*/
+    /*border-top: 0.3vw solid;*/
+    /*border-left: 0.3vw solid;*/
+}
+.subtitleBox2 {
+    display: block;
+    float: right;
+
+    margin-top: 4vw;
+    margin-right: 3vw;
+    padding-left: 4vw;
+    padding-top: 1.5vw;
+
+
+
+    color: #3b3b3b;
+    background-color: #cfb87b;
+
+    height: 30vw;
+    width: 90vw;
 
 }
-
 .resourcesText {
     display: block;
     /*float: right;*/
@@ -437,7 +462,7 @@ a:active {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    background: rgba(103, 85, 110, 0.95); /* POTENTIALLY CHANGE */
+    background: #7960a9; /* POTENTIALLY CHANGE */
     margin-bottom: 2rem;
 }
 .card img {
@@ -540,42 +565,42 @@ a{
 }
 
 .bar-graph-one .bar-one .bar {
-    background-color:  #cfb87b;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-one 1.2s 0.1s forwards;
     -moz-animation: show-bar-one 1.2s 0.1s forwards;
     animation: show-bar-one 1.2s 0.1s forwards;
 }
 
 .bar-graph-one .bar-two .bar {
-    background-color:  #cfb87b;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-two 1.2s 0.2s forwards;
     -moz-animation: show-bar-two 1.2s 0.2s forwards;
     animation: show-bar-two 1.2s 0.2s forwards;
 }
 
 .bar-graph-one .bar-three .bar {
-    background-color:  #cfb87b;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-three 1.2s 0.3s forwards;
     -moz-animation: show-bar-three 1.2s 0.3s forwards;
     animation: show-bar-three 1.2s 0.3s forwards;
 }
 
 .bar-graph-one .bar-four .bar {
-    background-color:  #cfb87b;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-four 1.2s 0.4s forwards;
     -moz-animation: show-bar-four 1.2s 0.4s forwards;
     animation: show-bar-four 1.2s 0.4s forwards;
 }
 
 .bar-graph-one .bar-five .bar {
-    background-color:  #cfb87b;
+    background-color: darkslateblue;
     -webkit-animation: show-bar-five 1.2s 0.4s forwards;
     -moz-animation: show-bar-five 1.2s 0.4s forwards;
     animation: show-bar-five 1.2s 0.4s forwards;
 }
 
 .bar-graph-one .bar-six .bar {
-    background-color: #000000;
+    background-color: #2e515f;
     -webkit-animation: show-bar-six 1.2s 0.4s forwards;
     -moz-animation: show-bar-six 1.2s 0.4s forwards;
     animation: show-bar-six 1.2s 0.4s forwards;
